@@ -1,85 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font family from google font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet">
-
-
-
-    
     <link rel="stylesheet" href="style.css">
-    <title>Gamer Zone</title>
+
+    <title>Gamer</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <section class="nav-bar">
-        <ul>
-            <li>
-                <img id="nav-image" src="images/Frame.png" alt="">
-            </li>
-            <li>
-                <h1 class="nav-title">
-                    <span class="geee">G</span>amer
-                </h1>
-            </li>
-            <li id="nav-ancor-one">
-                <a href="">About Us</a>
-            </li>
-            <li class="nav-ancor">
-                <a href="">Developers</a>
-            </li>
-            <li id="nav-ancor-two">
-                <a href="">Follow Us On 
-                <img src="images/tik-tok 1.svg" alt="">
-                <img src="images/Vector.svg" alt="">
-            </li>
-        </ul>
-</section>
+    <!-- start header section -->
+    <header>
+        <!-- navbar section -->
+        <nav>
 
-<section class="goat-section">
-    <div class="text-goat">
-        <p class="play-like">Play Like The</p>
-        <p class="goat">G.O.A.T.</p>
+            <div class="nav-container margin-auto">
+                <div class="nav-logo-container">
+                    <img src="./images/Frame.png" alt="logo">
+                    <p><span class="nav-title primary-color">G</span>amer</p>
+                </div>
 
-<li class="goat-icon"><p class="text-primary"><img class="icon-primary" src="images/Frame.svg" alt=""> 1-Click instant play</p></li>
+                <div class="nav-items-container">
+                    <a class="nav-list" href="">About Us</a>
+                    <a class="nav-list" href="">Developers</a>
+                    <a class="nav-list menu-btn" href="">Follow US <i class="fa-brands fa-youtube icon"
+                            style="color: #f61c0d;"></i><i class="fa-brands fa-tiktok icon"></i></a>
+                    <!-- follow us -->
 
-<li class="goat-icon"><p class="text-primary"><img class="icon-primary" src="images/Frame (1).svg" alt=""> No Download </p></li>
+                    <!--end  follow us -->
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <section id="banner-container">
+            <div class="banner-container margin-auto">
+                <!-- banner-content -->
+                <div class="banner-content">
+                    <h3>Play Like The</h3>
+                    <h1>G.O.A.T.</h1>
+                    <div class="banner-text-img">
+                        <!-- banner-text -->
+                        <div class="banner-icon">
+                            <img src="./images/play.png" alt="">
+                            <p>1-Click instant play</p>
+                        </div>
+                        <div class="banner-icon">
+                            <img src="./images/download.png" alt="">
+                            <p>No Download</p>
+                        </div>
+                        <div class="banner-icon">
+                            <img src="./images/human.png" alt="">
+                            <p>1000s of supported online games</p>
+                        </div>
+                    </div>
+                    <!-- banner-btn -->
+                    <button class="banner-btn-1">Sign In</button>
+                    <button class="banner-btn-2">Go Rogue</button>
+                </div>
 
-<li class="goat-icon"><p class="text-primary"><img class="icon-primary" src="images/Frame (2).svg" alt=""> 1000s of supported online games</p></li>
+                <!-- banner-img -->
+                <div class="banner-img">
+                    <img src="./images/banner-img.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- end header section -->
+    <main>
+        <!-- start gamer-section -->
+        <section class="gamer-container margin-auto">
+            <div class="gamer-content">
+                <img src="./images/gamer-img.png" alt="">
+                <div class="gamer-content-text">
+                    <h3 class="gamer-content-title">
+                        We are gamer
+                    </h3>
+                    <p class="gamer-content-description">
+                        An international digital games and entertainment company. We develop, publish and distribute
+                        multiplayer mobile games. We reach over 400 million players each month and our audience
+                        keeps growing.
+                    </p>
+                    <button class="gamer-btn">know more</button>
+                    <p class="gamer-purpose">Our purpose...<br>
+                        <span class="unleash-gamer">“unleash the gamer in everyone”</span>
+                    </p>
+                </div>
 
+            </div>
+        </section>
+        <!-- end gamer-section -->
 
+        <!-- online games section -->
+        <section class="online-game margin-auto">
+            <h3 class="online-game-title">Online Games <span class="funny-vedio">Funny Videos</span></h3>
+            <p class="online-game-text">A Collection of Hilarious Videos to Brighten Your Day</p>
 
+            <div class="online-games-img">
+                <div class="online-games-img1">
+                    <div class="flat-img">
+                        <img src="./images/online-img1.png" alt="">
+                        <div class="content">
+                            <img src="./images/play-button.png" alt="">
+                            <p>Watch Now</p>
+                        </div>
+                    </div>
+                    <p>No Download. No Installs. Play games Instantly on Gamer.</p>
+                </div>
 
+                <div class="online-games-img1">
+                    <div class="flat-img">
+                        <img src="./images/online-img2.png" alt="">
+                        <div class="content">
+                            <img src="./images/play-button.png" alt="">
+                            <p>Watch Now</p>
+                        </div>
+                    </div>
+                    <p>Did you score? #unblockedgames #school</p>
+                </div>
 
-<div > </div>
+                <div class="online-games-img1">
+                    <div class="flat-img">
+                        <img src="./images/online-img3.png" alt="">
+                        <div class="content">
+                            <img src="./images/play-button.png" alt="">
+                            <p>Watch Now</p>
+                        </div>
+                    </div>
+                    <p>Breaking game records like OG</p>
+                </div>
 
-<div ></div>
+                <div class="online-games-img1">
+                    <div class="flat-img">
+                        <img src="./images/online-img4.png" alt="">
+                        <div class="content">
+                            <img src="./images/play-button.png" alt="">
+                            <p>Watch Now</p>
+                        </div>
+                    </div>
+                    <p>Busted gaming on school laptop, but you are still lit.</p>
+                </div>
+            </div>
+        </section>
+        <!-- end online games section -->
 
-<div ></div>
+        <!-- start play instant -->
+        <section class="play-instant margin-auto">
+            <div class="play-instant-container">
+                <div class="play-instant-content">
+                    <h3><span class="play-text">Play Instantly,</span><br>
+                        No Downloads<br>
+                        No Installs.</h3>
+                    <p>Play games online for free without<br>downloading. Just click the Play button<br>and play
+                        instantly in
+                        your browser.</p>
+                </div>
+                <div class="play-instant-img">
+                    <img class="play-img-1" src="./images/play-instant-img1.png" alt="">
+                    <div class="play-img-2">
+                        <img src="./images/play-instant-img2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- icon section -->
+        <section>
+            <div class="icon-container margin-auto">
 
+                <button class="btn-content">
+                    <img src="./images/icon1.png" alt="">
+                    <p>Action Games</p>
+                </button>
 
-       
-        
-       
-       
+                <button class="btn-content">
+                    <img src="./images/icon2.png" alt="">
+                    <p>Adventure Games</p>
+                </button>
 
-        <button id="sign">SIGN IN</button>
+                <button class="btn-content-Arcade btn-content">
+                    <img src="./images/icon3.png" alt="">
+                    <p>Arcade Games</p>
+                </button>
 
-        <button id="gogue">GO ROGUE</button>
-        
-    </div>
+                <button class="btn-content">
+                    <img src="./images/icon4.png" alt="">
+                    <p>Educational Games</p>
+                </button>
 
-    
-    <div class="image-goat">
-        <img src="images/Group 18.png" alt="">
-    </div>
+                <button class="btn-content">
+                    <img src="./images/icon5.png" alt="">
+                    <p>Word Games</p>
+                </button>
 
-</section>
+                <button class="btn-content">
+                    <img src="./images/icon6.png" alt="">
+                    <p>Role Palying Games</p>
+                </button>
+
+                <button class="btn-content">
+                    <img src="./images/icon7.png" alt="">
+                    <p>Music & Audio Games</p>
+                </button>
+
+                <button class="btn-content">
+                    <img src="./images/icon8.png" alt="">
+                    <p>Puzzle Games</p>
+                </button>
+
+                <button class="btn-content">
+                    <img src="./images/icon9.png" alt="">
+                    <p>Strategy Games</p>
+                </button>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="footer-section">
+        <div class="footer-logo-container">
+            <img src="./images/Frame.png" alt="">
+            <h3><span class="nav-title primary-color">G</span>amer</h3>
+        </div>
+        <div class="footer-Our-Story">
+            <a href="#">Our Story</a>
+            <a href="#">Games</a>
+            <a href="#">Web Games</a>
+            <a href="#">Careers</a>
+            <a href="#">Support</a>
+            <a href="#">My Account</a>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><img src="./images/twitter.png" alt=""></a>
+            <a href="#"><img src="./images/facebook.png" alt=""></a>
+            <a href="#"><img src="./images/Group.png" alt=""></a>
+            <a href="#"><img src="./images/linkedin.png" alt=""></a>
+            <a href="#"><img src="./images/instagram.png" alt=""></a>
+            <a href="#"><img src="./images/apple.png" alt=""></a>
+        </div>
+
+        <div class="footer-Terms-and-Conditions">
+            <a href="">Terms and Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Cookie Policy</a>
+            <a href="">Privacy Settings</a>
+        </div>
+        <p>Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+    </footer>
 </body>
+
 </html>
